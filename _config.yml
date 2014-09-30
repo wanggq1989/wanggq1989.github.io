@@ -1,0 +1,33 @@
+#baseurl: /MyBlog
+markdown: kramdown
+#markdown: rdiscount #kramdown redcarpet
+
+kramdown:
+  extensions: [  "autolink", ]
+markdown_ext:  markdown,mkd,mkdn,md
+
+highlighter: pygments
+
+permalink: /blog/:year/:month/:day/:title.html
+paginate: 5
+paginate_path: "page/:num"
+encoding: "utf-8"
+future: true
+lsi: true
+safe: false
+
+meta:
+    blog:
+        name: 国庆的博客                        #博客名称
+        url:  wanggq1989.github.io                           #博客地址
+        description: 没有完美，只有让它变得更好          #二级标题
+        speak: 追求卓越，成功就会追着你跑          #标题后面的文字
+        title: 国庆的博客                       #博客标题
+        rss: /page/rss.xml                      #RSS页面
+        #baidukey: PLCtR5jCNe                    #百度站长验证的key
+    author:
+        name: 国庆                             #作者名称
+        github: https://github.com/wanggq1989        #github地址
+        weibo: http://t.qq.com/wonderful_wang           #微博地址
+        email: 924211739@qq.com                #邮箱
+        icon: /res/img/icon.png                 #博客头像
