@@ -7,8 +7,7 @@ title: 记录
 
 ## Life ##
 * 2014
-  * [2014 -> Life](/life/2014/life.html)
-  * [2014 -> BlueSky](/life/2014/bluesky.html)
+  * [2014 -> 诛仙](/life/2014/zhuxian.html)
 
 -----------------------------------------------
 
